@@ -3,6 +3,8 @@
 Dalam bahasa Indonesia
 Dalam rangka meningkatkan kualitas dalam [agrihack.party](http://agrihack.party)
 
+### [See To Believe (login pakai lx/akun univ) ](https://lx.apps.cs.ipb.ac.id/profile/13200)
+
 ## Pengenalan CTF basic
 
 > Capture The Flag adalah salah satu kompetisi bidang keamanan. Jadi, peserta intinya ingin mendapat "flag". Dengan submit "flag", peserta dapat point.
