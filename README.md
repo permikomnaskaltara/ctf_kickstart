@@ -4,7 +4,8 @@
 
 > Capture The Flag adalah salah satu kompetisi bidang keamanan. Jadi, peserta intinya ingin mendapat "flag". Dengan submit "flag", peserta dapat point.
 
-!(Image of CTF)[http://pad2.whstatic.com/images/thumb/a/a6/Play-Capture-the-Flag-Step-8-Version-2.jpg/aid43742-v4-728px-Play-Capture-the-Flag-Step-8-Version-2.jpg|alt=ctf_img]
+![Image of CTF](http://digibond.wpengine.netdna-cdn.com/wp-content/uploads/2015/01/ffc-capture-the-flag-400x400.png)
+
 
 Untuk referensi dasar, bisa baca di [blog ini](http://blog.rentjong.net/2014/11/mau-ikut-ctf-perlu-belajar-apa.html).
 
