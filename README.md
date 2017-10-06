@@ -36,11 +36,21 @@ Link terkait
 - [Dengan Virtualbox](http://www.instructables.com/id/How-to-install-Linux-on-your-Windows)
 
 
-### Command Linux Dasar
+### Linux Dasar
 
+Sekarang sudah di desktop linux, mari buka command line:
 
+Mari Buka Terminal
+```bash
+Ctrl + T
+```
+atau
+```bash
+Ctrl + Alt + T
+```
+Selain command diatas, terminal bisa dibuka lewat menu, dan pilih **terminal** atau **xterm**, atau **console**
 
-
+Nah, disinilah kita mulai perjalanan kita
 
 
 
