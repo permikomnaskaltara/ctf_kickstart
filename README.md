@@ -1,7 +1,7 @@
 # ctf_kickstart
 
 Dalam bahasa Indonesia
-Dalam rangka meningkatkan kualitas dalam (agrihack.party)[https://agrihack.party]
+Dalam rangka meningkatkan kualitas dalam [agrihack.party](http://agrihack.party)
 
 ## Pengenalan CTF basic
 
@@ -168,6 +168,19 @@ $ man whoami
 ```
 
 
+
+
+## Kategori Web
+
+### Dasar
+Untuk kategori web, dapat memanfaatkan *developer tool* bawaan browser.
+
+Untuk browser chrome dan firefox dapat mengetikkan **F12** untuk menampilkan jendela *developer tool*
+Untuk melihat source code, dapat menggunakan **Ctrl+U**
+
+*in progress*
+
+
+
+
 To Be Updated.....
-
-
