@@ -58,7 +58,17 @@ Selain command diatas, terminal bisa dibuka lewat menu, dan pilih **terminal** a
 
 Keluar terminal, bisa ketik:
 ```bash
-exit
+$ exit
+```
+
+Jalankan program:
+```bash
+./<NAMA_PROGRAM>
+
+misal 
+
+$ ./simple_cipher
+> hai, ini output dari program
 ```
 
 
