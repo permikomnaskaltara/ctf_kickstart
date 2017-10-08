@@ -1,6 +1,7 @@
 # ctf_kickstart
 
-Dalam bahasa Indonesia
+Dalam bahasa Indonesia.
+
 Dalam rangka meningkatkan kualitas dalam [agrihack.party](http://agrihack.party)
 
 ### [See To Believe (login pakai lx/akun univ) ](https://lx.apps.cs.ipb.ac.id/profile/13200)
@@ -61,15 +62,6 @@ Keluar terminal, bisa ketik:
 $ exit
 ```
 
-Jalankan program:
-```bash
-./<NAMA_PROGRAM>
-
-misal 
-
-$ ./simple_cipher
-> hai, ini output dari program
-```
 
 
 ## Nah, disinilah kita mulai perjalanan kita :camel:
@@ -83,7 +75,11 @@ pwd
 
 Untuk masuk ke direktori gunakan:
 ```bash
+# masuk ke dalam direktori
 cd <DIREKTORI>
+
+# kembali dari suatu direktori
+cd ..
 ```
 anda bisa menganggap cd adalah "change directory"
 
@@ -91,6 +87,12 @@ Untuk membuat sebuah direktori:
 ```bash
 mkdir <DIREKTORI>
 ```
+
+Untuk menampilkan semua file yang ada dalam direktori anda:
+```bash
+ls
+```
+
 Untuk membuka text editor di terminal :star: :
 ```bash
 nano <NAMA FILE>
@@ -112,12 +114,12 @@ cat <NAMA FILE>
 # cek direktori sekarang
 $ pwd
 > /home/saya
-$ mkdir coba
+$ mkdir coba_dir
 
-$ cd coba
+$ cd coba_dir
 
 $ pwd
-> /home/saya/coba
+> /home/saya/coba_dir
 
 $ nano ayam
 
@@ -126,9 +128,14 @@ $ nano ayam
 $ cat ayam
 > rendang memang enak sekali
 
+$ cd ..
+$ pwd
+> /home/saya
+
 ```
 
 Jika stuck dalam program dan tidak bisa input command, Terpaksa gunakan **Ctrl+Z**
+
 
 ### Administrasi
 
@@ -149,11 +156,37 @@ $ whoami
 
 ```
 
+
+
 *Note tentang **root** dalam linux*
 
 > root is the user name or account that by default has access to all commands and files on a Linux or other Unix-like operating system
 
 (sumber)[http://www.linfo.org/root.html]
+
+
+Jalankan program:
+```bash
+./<NAMA_PROGRAM>
+
+misal 
+
+$ ./simple_cipher
+> hai, ini output dari program
+```
+
+Terkadang, kita harus mengatur permission untuk menjalankan program
+```bash
+$ ./simple_cipher
+> bash: ./simple_cipher: Permission denied
+
+$ chmod +x simple_cipher
+
+$
+> hai, ini output dari program
+```
+Contoh diatas menggunakan **chmod**, yaitu untuk mengganti file permission
+dan **chmod +x** berguna untuk mengganti file permission agar dapat di-execute/di-jalankan
 
 
 ### Manual
@@ -189,6 +222,23 @@ Untuk kategori web, dapat memanfaatkan *developer tool* bawaan browser.
 
 Untuk browser chrome dan firefox dapat mengetikkan **F12** untuk menampilkan jendela *developer tool*
 Untuk melihat source code, dapat menggunakan **Ctrl+U**
+
+
+##### Komponen Web
+Kita dapat mengkategorikan sebuah web menjadi dua bagian, yaitu **sisi server** dan **sisi client**
+
+###### Client Side (Sisi Client)
+Pada sisi client, komponen yang paling umum adalah **HTML** dan **CSS** untuk tampilan.
+
+Dan **Javascipt** merupakan salah satu bahasa pemograman yang sering digunakan di sisi client sebuah website.
+
+Javascript sangat powerful karena bisa melakukan hal-hal layaknya bahasa pemograman, dan sayangya banyak kelemahan pada website karena komponen javascript itu sendiri. Jadi, cukup berbahaya jika menaruh "data sensitif" pada client side .
+
+###### Server Side (Sisi Server)
+Pada sisi server,  banyak variasi skema, bahasa pemograman, dll. Untuk kompetisi CTF, sisi server paling banyak menggunakan bahasa **PHP**, **Javascript**, dan **Python**.
+
+.
+
 
 *in progress*
 
