@@ -162,7 +162,8 @@ $ whoami
 
 > root is the user name or account that by default has access to all commands and files on a Linux or other Unix-like operating system
 
-(sumber)[http://www.linfo.org/root.html]
+![sumber](http://www.linfo.org/root.html)
+
 
 
 Jalankan program:
@@ -182,7 +183,7 @@ $ ./simple_cipher
 
 $ chmod +x simple_cipher
 
-$
+$ ./simple_cipher
 > hai, ini output dari program
 ```
 Contoh diatas menggunakan **chmod**, yaitu untuk mengganti file permission
