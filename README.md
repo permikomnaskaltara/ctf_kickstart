@@ -246,6 +246,47 @@ Pada sisi server,  banyak variasi skema, bahasa pemograman, dll. Untuk kompetisi
 
 
 
+
+## Kategori Reversing
+*“If you're stuck in the past, you go forward in reverse”*
+― Josh Stern
+
+Pada Kategori reversing, kalian ditantang untuk melakukan reverse engineering terhadap program ataupun kode program.
+
+##### Contoh basic:
+Penggunaan **ltrace**
+> A library call tracer
+
+Ada sebuah program bernama *rahasia* yang meminta sebuah input
+```bash
+$ ./rahasia
+  rendang
+> Gagal :( 
+
+# kita dapat menggunakan ltrace
+
+$ ltrace ./rahasia
+> gets(0xff... , 0xff.... , 103,0<MENUNGGU INPUT> <MASUKKAN "rendang">
+> strcmp("rendang", "ini_flag")
+> puts("Gagal :(")
+
+# Kita coba lagi dengan input ini_flag
+
+$ ./rahasia
+  ini_flag
+> yay, anda berhasil :)
+```
+
+Terminologi yang mungkin harus dikenali adalah **debugging**
+
+Debugging sendiri bisa dibagi menjadi dua, yaitu **static** dan **dynamic**.
+Debugging dynamic yaitu debugging dengan menjalankan program.
+
+Untuk debugging static, dapat menggunakan "objdump -d" , decompiler, dll
+Untuk debugging dynamic, dapat menggunakan GDB, IDA, dll
+
+
+
 To Be Updated.....
 
 
