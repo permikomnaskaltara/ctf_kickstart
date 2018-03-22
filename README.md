@@ -243,7 +243,7 @@ Pada sisi server,  banyak variasi skema, bahasa pemograman, dll. Untuk kompetisi
 
 *in progress*
 
-
+HLE
 
 
 
@@ -285,13 +285,17 @@ Debugging dynamic yaitu debugging dengan menjalankan program.
 Untuk debugging static, dapat menggunakan "objdump -d" , decompiler, dll
 Untuk debugging dynamic, dapat menggunakan GDB, IDA, dll
 
-
+Tool Mempermudah hidup:
+- SQLmap - sql injection
+- Tplmap - template injecetion
 
 To Be Updated.....
 
 
-### Sumber Lain
+### [Sumber Lain](https://lemperin.com/)
 [Fan Page Cyber Security IPB](https://www.facebook.com/cysecipb)
+
+[crypto tool](https://lemperin.com/cat/cryptography)
 
 [Situs Kompetisi agrihack.party](http://agrihack.party)
 
